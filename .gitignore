@@ -1,0 +1,21 @@
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# React / Node
+Frontend/node_modules/
+Frontend/dist/
+
+# Environment and editor files
+.env
+.vscode/
+.DS_Store
+# Generated detection output
+backend/runs/
+*.avi
+
+# Keep only the model used by the backend
+/yolo11n.pt
+/backend/yolo11n.pt
